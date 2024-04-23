@@ -1,0 +1,13 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 0;
+  list-style-type: none;
+}
+.option {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  user-select: none;
+}

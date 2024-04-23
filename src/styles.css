@@ -1,0 +1,40 @@
+body {
+  background: linear-gradient(
+    to top,
+    hsl(40deg 100% 80%),
+    hsl(55deg 100% 95%)
+  );
+  background-attachment: fixed;
+  padding-bottom: 32px;
+}
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+form {
+  width: 100%;
+  max-width: 300px;
+  margin-top: 32px;
+  padding: 18px;
+  padding-top: 12px;
+  border: 2px dotted hsl(45deg 100% 60%);
+  border-radius: 4px;
+  background: white;
+  outline: 4px solid white;
+}
+form h2 {
+  font-size: 1.125rem;
+  margin-bottom: 8px;
+}
+form button {
+  display: block;
+  width: 100%;
+  margin-top: 16px;
+}
+footer {
+  margin-top: 32px;
+  padding: 16px;
+  font-size: 0.75rem;
+  color: hsl(40deg 40% 30%);
+}
